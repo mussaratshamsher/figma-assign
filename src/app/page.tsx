@@ -17,14 +17,16 @@ export default function Page() {
   return (
     
 
-    <div className='w-full md:h-[3800px] h-[4800px] bg-white md:mt-5'>
+    <div className='w-full md:h-[3600px] h-[4800px] bg-white md:mt-5'>
         
       <Image src={Group} alt="" width={1500} height={2000} 
       className='md:w-[1100px] md:h-[500px] m-auto w-95 h-[200px]'/>
 
       <div className='w-full bg-yellow-300 h-10 md:h-20'>
+
       <Image src={iconbar} alt="" width={1000} height={1000} 
-      className='md:w-90 w-60 ml-5 md:ml-auto md:mr-auto pt-4' />
+      className=' md:w-90 md:ml-auto md:mr-auto w-60 ml-3 pt-4' />
+      
       </div>
        <Card /> 
        <Fav />
